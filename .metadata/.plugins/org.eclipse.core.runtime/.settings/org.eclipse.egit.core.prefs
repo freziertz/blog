@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\wamp64\\www\\blog\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 RepositorySearchDialogSearchPath=C\:\\wamp64\\www\\blog
 core_defaultRepositoryDir=C\:\\wamp64\\www\\blog
 eclipse.preferences.version=1
