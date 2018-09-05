@@ -87,14 +87,11 @@
               			if (result){
               					event.preventDefault();
               					document.getElementById('delete-form').submit();
-              					}"
-				>
-				Delete
-				</a>
-				<form id="delete-form" action="{{route('projects.destroy', [$project->id])}}"
-				method="post" style="display: none;">
-				<input type="hidden" name="_method" value="delete"/>
-				{{csrf_field()}}
+              					}">Delete</a>
+        		<form id="delete-form" action="{{route('projects.destroy', [$project->id])}}"
+        		method="post" style="display: none;">
+        		<input type="hidden" name="_method" value="delete"/>
+        		{{csrf_field()}}
 				</form>
 				</li>
         @endif
